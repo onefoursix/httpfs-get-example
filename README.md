@@ -3,6 +3,8 @@ httpfs-get-example
 
 Simple example of calling an HttpFs REST Url to get a file from HDFS from Java 
 
+See [here](http://hadoop.apache.org/docs/r2.4.0/hadoop-project-dist/hadoop-hdfs/WebHDFS.html) for docs on the WebHdfs API
+
 
 ####Building the project
 To build the project, execute the command:
