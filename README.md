@@ -18,7 +18,7 @@ To run the project, execute a command of the form:
 
 	$ java -cp target/httpfs-get-example.jar com.onefoursix.demo.HttpFsGetExample  <user> <HttpFs REST URL>
 		
-For example, to get the file `/user/hive/warehouse/sample_07/sample_07` from an HttpFs Server listening on `http://10.10.10.7:14000` as the user `mark`: 
+For example, to get the file `/user/hive/warehouse/sample_07/sample_07` from an HttpFs Server listening on `http://10.10.10.7:14000` as the user `mark` you would execute a command like this: 
 
         $ java -cp target/httpfs-get-example.jar com.onefoursix.demo.HttpFsGetExample mark http://10.10.10.7:14000/webhdfs/v1/user/hive/warehouse/sample_07/sample_07
 			
