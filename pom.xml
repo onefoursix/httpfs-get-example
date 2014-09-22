@@ -7,35 +7,11 @@
 	<version>1.0</version>
 	<packaging>jar</packaging>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8
-		</project.reporting.outputEncoding>
-	</properties>
-
 	<dependencies>
 		<dependency>
   			<groupId>org.apache.httpcomponents</groupId>
   			<artifactId>httpclient</artifactId>
   			<version>4.3.5</version>
-		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.10</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.hamcrest</groupId>
-			<artifactId>hamcrest-all</artifactId>
-			<version>1.1</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.hadoop</groupId>
-			<artifactId>hadoop-test</artifactId>
-			<version>1.0.0</version>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 	
@@ -107,25 +83,6 @@
 	</build>
 
 	<repositories>
-		<repository>
-			<id>cdh.repo</id>
-			<url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
-			<name>Cloudera Repositories</name>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>cdh.snapshots.repo</id>
-			<url>https://repository.cloudera.com/artifactory/libs-snapshot-local</url>
-			<name>Cloudera Snapshots Repository</name>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</repository>
 		<repository>
 			<id>central</id>
 			<url>http://repo1.maven.org/maven2/</url>
